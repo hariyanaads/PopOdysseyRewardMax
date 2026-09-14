@@ -33,4 +33,6 @@ android {
 
 dependencies {
     compileOnly files('libs/XposedBridgeApi-82.jar')
+    
+    implementation 'androidx.annotation:annotation:1.7.0'
 }

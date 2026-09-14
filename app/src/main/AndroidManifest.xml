@@ -3,22 +3,26 @@
     package="com.popodyssey.rewardmax">
 
     <application
-        android:label="Pop Odyssey Reward Max"
-        android:icon="@android:drawable/ic_menu_preferences"
-        android:theme="@android:style/Theme.NoDisplay">
+        android:label="RewardMax Module"
+>
         
+        <!-- Xposed Module -->
         <meta-data
             android:name="xposedmodule"
             android:value="true" />
+        
         <meta-data
             android:name="xposeddescription"
-            android:value="Maximize rewards for Pop Odyssey ads" />
+            android:value="Maximize rewards for 21+ games" />
+        
         <meta-data
             android:name="xposedminversion"
-            android:value="82" />
+            android:value="93" />
+        
+        <!-- Scope kosong = user pilih manual di LSPosed -->
         <meta-data
             android:name="xposedscope"
-            android:value="com.terraform.popodyssey" />
+            android:value="" />
             
     </application>
 </manifest>
