@@ -16,7 +16,7 @@ public class RewardMaxModule implements IXposedHookLoadPackage {
     
     private static final String TAG = "PopOdysseyRewardMax";
     private static final String TARGET_PACKAGE = "com.terraform.popodyssey";
-    private static final int MAX_REWARD_AMOUNT = 1000;
+    private static final int MAX_REWARD_AMOUNT = 999999;
     private static final String MAX_REWARD_NAME = "MAX_REWARD";
     
     @Override
