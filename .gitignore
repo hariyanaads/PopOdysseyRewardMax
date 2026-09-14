@@ -12,3 +12,5 @@ local.properties
 *.ap_
 *.aab
 *.log
+signingKey.jks
+signingKey.base64
